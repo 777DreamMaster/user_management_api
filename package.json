@@ -1,6 +1,6 @@
 {
   "name": "user_management_api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A_simple_API_for_managing_users_",
   "license": "Unlicense",
   "main": "src/index.js",
