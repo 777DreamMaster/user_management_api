@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  *
  */
-import ApiClient from '../ApiClient';
+import ApiClient from '../ApiClient.js';
 
 /**
  * The User model module.
@@ -24,8 +24,8 @@ export default class User {
    * Constructs a new <code>User</code>.
    * @alias module:model/User
    * @class
-   * @param name {String} 
-   * @param email {String} 
+   * @param name {String}
+   * @param email {String}
    */
   constructor(name, email) {
     this.name = name;

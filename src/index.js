@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  *
  */
-import ApiClient from './ApiClient';
-import User from './model/User';
-import DefaultApi from './api/DefaultApi';
+import ApiClient from './ApiClient.js';
+import User from './model/User.js';
+import DefaultApi from './api/DefaultApi.js';
 
 /**
 * A_simple_API_for_managing_users_.<br>

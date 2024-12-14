@@ -12,8 +12,8 @@
  * Do not edit the class manually.
  *
  */
-import ApiClient from "../ApiClient";
-import User from '../model/User';
+import ApiClient from "../ApiClient.js";
+import User from '../model/User.js';
 
 /**
 * Default service.
@@ -23,7 +23,7 @@ import User from '../model/User';
 export default class DefaultApi {
 
     /**
-    * Constructs a new DefaultApi. 
+    * Constructs a new DefaultApi.
     * @alias module:api/DefaultApi
     * @class
     * @param {module:ApiClient} [apiClient] Optional API client implementation to use,
@@ -44,11 +44,11 @@ export default class DefaultApi {
 
     /**
      * Create a new user
-     * @param {module:model/User} body 
+     * @param {module:model/User} body
      * @param {module:api/DefaultApi~createUserCallback} callback The callback function, accepting three arguments: error, data, response
      */
     createUser(body, callback) {
-      
+
       let postBody = body;
       // verify the required parameter 'body' is set
       if (body === undefined || body === null) {
@@ -56,16 +56,16 @@ export default class DefaultApi {
       }
 
       let pathParams = {
-        
+
       };
       let queryParams = {
-        
+
       };
       let headerParams = {
-        
+
       };
       let formParams = {
-        
+
       };
 
       let authNames = [];
@@ -93,7 +93,7 @@ export default class DefaultApi {
      * @param {module:api/DefaultApi~deleteUserCallback} callback The callback function, accepting three arguments: error, data, response
      */
     deleteUser(userId, callback) {
-      
+
       let postBody = null;
       // verify the required parameter 'userId' is set
       if (userId === undefined || userId === null) {
@@ -104,13 +104,13 @@ export default class DefaultApi {
         'userId': userId
       };
       let queryParams = {
-        
+
       };
       let headerParams = {
-        
+
       };
       let formParams = {
-        
+
       };
 
       let authNames = [];
@@ -139,7 +139,7 @@ export default class DefaultApi {
      * data is of type: {@link <&vendorExtensions.x-jsdoc-type>}
      */
     getUserById(userId, callback) {
-      
+
       let postBody = null;
       // verify the required parameter 'userId' is set
       if (userId === undefined || userId === null) {
@@ -150,13 +150,13 @@ export default class DefaultApi {
         'userId': userId
       };
       let queryParams = {
-        
+
       };
       let headerParams = {
-        
+
       };
       let formParams = {
-        
+
       };
 
       let authNames = [];
@@ -184,20 +184,20 @@ export default class DefaultApi {
      * data is of type: {@link <&vendorExtensions.x-jsdoc-type>}
      */
     getUsers(callback) {
-      
+
       let postBody = null;
 
       let pathParams = {
-        
+
       };
       let queryParams = {
-        
+
       };
       let headerParams = {
-        
+
       };
       let formParams = {
-        
+
       };
 
       let authNames = [];
